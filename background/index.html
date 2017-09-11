@@ -74,25 +74,124 @@
         completely with coding. It was both a challenging and fulfilling course
         which reinforced my fondness for programming.
       </p>
-      <figure>
-        <img src="../media/average-page-001.jpg" alt="Page 1 of Average Code" />
-        <figcaption>
-          Page 1 of 3 for program source code "average"
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="../media/average-page-002.jpg" alt="Page 2 of Average Code" />
-        <figcaption>
-          Page 2 of 3 for program source code "average"
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="../media/average-page-003.jpg" alt="Page 3 of Average Code" />
-        <figcaption>
-          Page 3 of 3 for program source code "average"
-        </figcaption>
-      </figure>
-      <figure>
+      <pre><code class="java">//Write a complete program that declares an array of any five
+      integers, from 0 to 100 , and
+      //averages only those integers which are greater than 70 .
+      //Programmer: C.L.
+      //Date: 2/26/2016
+      //ITM 311 section 02
+      //name of program: average.java
+
+      import java.util.Scanner;
+      public class HW6
+      {
+        public static void main(String[]args)
+        {
+      //declare and initialize variables
+              double[] originalArray = new double[5];
+              double average=0;
+              double first=0;
+              double second=0;
+              double third =0;
+              double fourth=0;
+              double fifth=0;
+              double sum=0;
+              double count=0;
+              double count2=0;
+              double count3=0;
+              double count4=0;
+              double count5=0;
+              double totalcount =0;
+              Scanner input = new Scanner(System.in);
+          int index = 0;
+      //loop to get original array input by user:  originalArray[index]
+          while (index < 5)
+          {
+              System.out.println("Please enter a number from 0 and 100:");
+              originalArray[index]=input.nextInt();
+              //allow only numbers from 0 to 100
+              while(originalArray[index]>100||originalArray[index]<0)
+              {
+                      System.out.print("You entered an invalid number.\nPlease
+      enter a number from 0 and 100: ");
+                      originalArray[index]=input.nextInt();
+              }
+              index++;
+          }
+          //display numbers entered by user
+              System.out.println("The numbers entered were: ");
+              for(int i=0; i<originalArray.length; i++)
+              System.out.print(originalArray[i]+"   ");
+              //
+              System.out.println("\nThe numbers to be averaged are: ");
+      //calculate sum of eligible numbers
+              if (originalArray[0]>70 ||originalArray[1]>70 ||originalArray[2]>70
+      || originalArray[3]>70 || originalArray[4]>70)
+          {
+              if(originalArray[0]>70)
+              {first=originalArray[0];
+              count =1;
+              }else {first=0;count=0;}
+
+              if(originalArray[1]>70)
+              { second=originalArray[1];
+              count2 =1;}else {second=0;count2=0;}
+
+              if(originalArray[2]>70)
+              {third=originalArray[2];
+              count3=1;
+              }else {third=0;count3=0;}
+
+              if(originalArray[3]>70)
+              { fourth=originalArray[3];
+              count4=1;}else {fourth=0;count4=0;}
+
+              if(originalArray[4]>70)
+              { fifth=originalArray[4];
+              sum = first+second+third+fourth+fifth;
+              count5=1;
+              }else {sum=first+second+third+fourth;
+            }
+      //calculate average and denominator
+            totalcount=count+count2+count3+count4+count5;
+            average = sum/totalcount;
+          }
+      //prints numbers greater than 70
+                      if(originalArray[0]>70 ||originalArray[1]>70 ||originalArray[2]>70
+      || originalArray[3]>70 || originalArray[4]>70)
+                      {
+                      if(originalArray[0]>70)
+                              {
+                              System.out.print(originalArray[0]+"   ");
+                              }
+
+                      if(originalArray[1]>70)
+                              {
+                              System.out.print(originalArray[1]+"   ");
+                              }
+
+                      if(originalArray[2]>70)
+                              {
+                              System.out.print(originalArray[2]+"   ");
+                              }
+                      if(originalArray[3]>70)
+                              {
+                              System.out.print(originalArray[3]+"   ");
+                              }
+                      if(originalArray[4]>70)
+                              {
+                              System.out.print(originalArray[4]+"   ");
+                              }
+                      }else System.out.print("NONE");
+
+              if(originalArray[0]>70 ||originalArray[1]>70 ||originalArray[2]>70 ||
+      originalArray[3]>70 || originalArray[4]>70)
+          {
+      //display average
+                      System.out.println("\nThe average is: "+average);
+          }
+         }
+      }</code></pre>
         <img src="../media/average-output.png" alt="Output Average Code" />
         <figcaption>
           Picture of output for source code "average"

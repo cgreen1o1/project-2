@@ -75,124 +75,120 @@
     <section>
     <h4>"Taking the Average" Java Code</h4>
     <pre><code class="java">
-    //Write a complete program that declares an array of any five
-    //integers, from 0 to 100 , and
-    //averages only those integers which are greater than 70 .
-    //Programmer: C.L.
-    //Date: 2/26/2016
-    //ITM 311 section 02
-    //name of program: average.java
+      //Write a complete program that declares an array of any five integers, from 0 to 100 , and
+      //averages only those integers which are greater than 70 .
+      //Programmer: Christine Lode
+      //Date: 2/26/2016
+      //ITM 311 section 02
+      //name of program: Homework6.java
 
-    import java.util.Scanner;
-    public class average
-        {
-          public static void main(String[]args)
-          {
-            //declare and initialize variables
-            double[] originalArray = new double[5];
-            double average=0;
-            double first=0;
-            double second=0;
-            double third =0;
-            double fourth=0;
-            double fifth=0;
-            double sum=0;
-            double count=0;
-            double count2=0;
-            double count3=0;
-            double count4=0;
-            double count5=0;
-            double totalcount =0;
-            Scanner input = new Scanner(System.in);
-            int index = 0;
-            //loop to get original array input by user:  originalArray[index]
-                while (index < 5)
-            {
-              System.out.println("Please enter a number from 0 and 100:");
-              originalArray[index]=input.nextInt();
-              //allow only numbers from 0 to 100
-              while(originalArray[index]>100||originalArray[index]<0)
-              {
-                System.out.print("You entered an invalid number.\nPlease
-                enter a number from 0 and 100: ");
-                originalArray[index]=input.nextInt();
-              }
-            index++;
-            }
-          //display numbers entered by user
-          System.out.println("The numbers entered were: ");
-          for(int i=0; i<originalArray.length; i++)
-          System.out.print(originalArray[i]+"   ");
-          //
-          System.out.println("\nThe numbers to be averaged are: ");
-          //calculate sum of eligible numbers
-          if (originalArray[0]>70 ||originalArray[1]>70 ||originalArray[2]>70
-          || originalArray[3]>70 || originalArray[4]>70)
-          {
-            if(originalArray[0]>70)
-            {first=originalArray[0];
-            count =1;
-            }else {first=0;count=0;}
+      import java.util.Scanner;
+      public class HW6
+      {
+      	public static void main(String[]args)
+      	{
+      		//declare and initialize variables
+      		double[] originalArray = new double[5];
+      		double average=0;
+      		double first=0;
+      		double second=0;
+      		double third =0;
+      		double fourth=0;
+      		double fifth=0;
+      		double sum=0;
+      		double count=0;
+      		double count2=0;
+      		double count3=0;
+      		double count4=0;
+      		double count5=0;
+      		double totalcount =0;
+      		Scanner input = new Scanner(System.in);
+      		int index = 0;
+      		//loop to get original array input by user:  originalArray[index]
+      		while (index < 5)
+      		{
+      			System.out.println("Please enter a number from 0 and 100:");
+      			originalArray[index]=input.nextInt();
+      			//allow only numbers from 0 to 100
+      			while(originalArray[index]>100||originalArray[index]<0)
+      			{
+      				System.out.print("You entered an invalid number.\nPlease enter a number from 0 and 100: ");
+      				originalArray[index]=input.nextInt();
+      			}
+      			index++;
+      		}
+      		//display numbers entered by user
+      		System.out.println("The numbers entered were: ");
+      		for(int i=0; i<originalArray.length; i++)
+      			System.out.print(originalArray[i]+"   ");
+      		//
+      		System.out.println("\nThe numbers to be averaged are: ");
+      		//calculate sum of eligible numbers
+      		if (originalArray[0]>70 ||originalArray[1]>70 ||originalArray[2]>70 || originalArray[3]>70 || originalArray[4]>70)
+      		{
+      			if(originalArray[0]>70)
+      			{first=originalArray[0];
+      			count =1;
+      			}else {first=0;count=0;}
 
-            if(originalArray[1]>70)
-            { second=originalArray[1];
-              count2 =1;}else {second=0;count2=0;}
+      			if(originalArray[1]>70)
+      			{ second=originalArray[1];
+      			count2 =1;}else {second=0;count2=0;}
 
-            if(originalArray[2]>70)
-              {third=originalArray[2];
-                count3=1;
-              }else {third=0;count3=0;}
+      			if(originalArray[2]>70)
+      			{third=originalArray[2];
+      			count3=1;
+      			}else {third=0;count3=0;}
 
-            if(originalArray[3]>70)
-            { fourth=originalArray[3];
-              count4=1;}else {fourth=0;count4=0;}
+      			if(originalArray[3]>70)
+      			{ fourth=originalArray[3];
+      			count4=1;}else {fourth=0;count4=0;}
 
-              if(originalArray[4]>70)
-              { fifth=originalArray[4];
-              sum = first+second+third+fourth+fifth;
-              count5=1;
-              }else {sum=first+second+third+fourth;
-              }
-            //calculate average and denominator
-            totalcount=count+count2+count3+count4+count5;
-            average = sum/totalcount;
-            }
-            //prints numbers greater than 70
-            if(originalArray[0]>70 ||originalArray[1]>70 ||originalArray[2]>70
-            || originalArray[3]>70 || originalArray[4]>70)
-            {
-              if(originalArray[0]>70)
-              {
-                System.out.print(originalArray[0]+"   ");
-              }
+      			if(originalArray[4]>70)
+      			{ fifth=originalArray[4];
+      			sum = first+second+third+fourth+fifth;
+      			count5=1;
+      			}else {sum=first+second+third+fourth;
+      			}
+      			//calculate average and denominator
+      			totalcount=count+count2+count3+count4+count5;
+      			average = sum/totalcount;
+      		}
+      		//prints numbers greater than 70
+      		if(originalArray[0]>70 ||originalArray[1]>70 ||originalArray[2]>70 || originalArray[3]>70 || originalArray[4]>70)
+      		{
+      			if(originalArray[0]>70)
+      			{
+      				System.out.print(originalArray[0]+"   ");
+      			}
 
-                if(originalArray[1]>70)
-                {
-                  System.out.print(originalArray[1]+"   ");
-                }
+      			if(originalArray[1]>70)
+      			{
+      				System.out.print(originalArray[1]+"   ");
+      			}
 
-                if(originalArray[2]>70)
-                {
-                  System.out.print(originalArray[2]+"   ");
-                }
-                if(originalArray[3]>70)
-                {
-                  System.out.print(originalArray[3]+"   ");
-                }
-                if(originalArray[4]>70)
-                {
-                  System.out.print(originalArray[4]+"   ");
-                }
-              }else System.out.print("NONE");
+      			if(originalArray[2]>70)
+      			{
+      				System.out.print(originalArray[2]+"   ");
+      			}
+      			if(originalArray[3]>70)
+      			{
+      				System.out.print(originalArray[3]+"   ");
+      			}
+      			if(originalArray[4]>70)
+      			{
+      				System.out.print(originalArray[4]+"   ");
+      			}
+      		}else System.out.print("NONE");
 
-              if(originalArray[0]>70 ||originalArray[1]>70 ||originalArray[2]>70 ||
-              originalArray[3]>70 || originalArray[4]>70)
-              {
-                //display average
-                System.out.println("\nThe average is: "+average);
-              }
-            }
-          }</code></pre>
+      		if(originalArray[0]>70 ||originalArray[1]>70 ||originalArray[2]>70 || originalArray[3]>70 || originalArray[4]>70)
+      		{
+      			//display average
+      			System.out.println("\nThe average is: "+average);
+      		}
+      	}
+      }
+</code></pre>
     <figure>
       <figcaption>
       Picture of output for source code "average"
@@ -207,92 +203,92 @@
     import java.awt.*;
 
     public class DrawingHouse extends Applet
-        {
-          public void init()
-          {
-          setSize(350,240);
-          }
+    {
+    	public void init()
+    	{
+    		setSize(350,240);
+    	}
 
-        public void paint(Graphics g)
-                    {
-          //A standard
-          setBackground(Color.cyan);
-          //Draw clouds
-          g.setColor(Color.white);
-          g.fillOval(30,30,40,40);
-          g.fillOval(60,30,40,40);
-          g.fillOval(80,30,40,40);
-          g.fillOval(40,10,40,40);
-          g.fillOval(70,10,40,40);
+    	public void paint(Graphics g)
+    	{
+    		//A standard
+    		setBackground(Color.cyan);
+    		//Draw clouds
+    		g.setColor(Color.white);
+    		g.fillOval(30,30,40,40);
+    		g.fillOval(60,30,40,40);
+    		g.fillOval(80,30,40,40);
+    		g.fillOval(40,10,40,40);
+    		g.fillOval(70,10,40,40);
 
-          g.fillOval(160,10,20,20);
-          g.fillOval(175,10,20,20);
-          g.fillOval(190,10,20,20);
-          g.fillOval(170,20,20,20);
-          g.fillOval(185,20,20,20);
+    		g.fillOval(160,10,20,20);
+    		g.fillOval(175,10,20,20);
+    		g.fillOval(190,10,20,20);
+    		g.fillOval(170,20,20,20);
+    		g.fillOval(185,20,20,20);
 
-          //Draw roof
-          g.setColor(Color.red);
-          int x[]={100,160,220};
-          int y[]= {100,40,100};
-          Polygon poly = new Polygon(x,y,3);
-          g.fillPolygon(poly);
+    		//Draw roof
+    		g.setColor(Color.red);
+    		int x[]={100,160,220};
+    		int y[]= {100,40,100};
+    		Polygon poly = new Polygon(x,y,3);
+    		g.fillPolygon(poly);
 
-          //Draw body of house
-          g.setColor(Color.blue);
-          g.fillRect(100,100,120,120);
+    		//Draw body of house
+    		g.setColor(Color.blue);
+    		g.fillRect(100,100,120,120);
 
-          //Draw sun
-          g.setColor(Color.yellow);
-          g.fillOval(240,30,50,50);
+    		//Draw sun
+    		g.setColor(Color.yellow);
+    		g.fillOval(240,30,50,50);
 
-          //more clouds
-          g.setColor(Color.white);
-          g.fillOval(260,50,30,30);
-          g.fillOval(280,50,30,30);
-          g.fillOval(300,50,30,30);
-          g.fillOval(270,40,30,30);
-          g.fillOval(290,40,30,30);
+    		//more clouds
+    		g.setColor(Color.white);
+    		g.fillOval(260,50,30,30);
+    		g.fillOval(280,50,30,30);
+    		g.fillOval(300,50,30,30);
+    		g.fillOval(270,40,30,30);
+    		g.fillOval(290,40,30,30);
 
-          //Draw chimney
-          g.setColor(Color.black);
-          g.fillRect(120,55,10,30);
+    		//Draw chimney
+    		g.setColor(Color.black);
+    		g.fillRect(120,55,10,30);
 
-          //Door= black, Roof= magenta & 2 windows
-          g.setColor(Color.black);
-          g.fillRect(145,160,30,60);
-          g.setColor(Color.red);
-          g.fillPolygon(poly);
+    		//Door= black, Roof= magenta & 2 windows
+    		g.setColor(Color.black);
+    		g.fillRect(145,160,30,60);
+    		g.setColor(Color.red);
+    		g.fillPolygon(poly);
 
-          //Draw window 1
-          g.setColor(Color.white);
-          g.fillRect(115,125,25,25);
+    		//Draw window 1
+    		g.setColor(Color.white);
+    		g.fillRect(115,125,25,25);
 
-          //Draw window 1 crossbar
-          g.setColor(Color.black);
-          g.drawLine(115,137,140,137);
-          g.drawLine(127,125,127,150);
+    		//Draw window 1 crossbar
+    		g.setColor(Color.black);
+    		g.drawLine(115,137,140,137);
+    		g.drawLine(127,125,127,150);
 
-          //Draw window 2
-          g.setColor(Color.white);
-          g.fillRect(180,125,25,25);
+    		//Draw window 2
+    		g.setColor(Color.white);
+    		g.fillRect(180,125,25,25);
 
-          //Draw window 2 crossbar
-          g.setColor(Color.black);
-          g.drawLine(180,137,205,137);
-          g.drawLine(192,125,192,150);
+    		//Draw window 2 crossbar
+    		g.setColor(Color.black);
+    		g.drawLine(180,137,205,137);
+    		g.drawLine(192,125,192,150);
 
-          //Draw grass
-          g.setColor(Color.green);
-          g.fillRect(0,200,350,40);
+    		//Draw grass
+    		g.setColor(Color.green);
+    		g.fillRect(0,200,350,40);
 
-          //Draw tree
-          g.setColor(Color.gray);
-          g.fillRect(28,100,20,100);
-          g.setColor(Color.green);
-          g.fillOval(0,40,80,80);
-        }
-      }</code></pre>
+    		//Draw tree
+    		g.setColor(Color.gray);
+    		g.fillRect(28,100,20,100);
+    		g.setColor(Color.green);
+    		g.fillOval(0,40,80,80);
+    	}
+    }</code></pre>
     <figure>
       <figcaption>
       Picture of output for source code "DrawingHouse"

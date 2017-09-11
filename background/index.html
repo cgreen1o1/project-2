@@ -74,7 +74,10 @@
         completely with coding. It was both a challenging and fulfilling course
         which reinforced my fondness for programming.
       </p>
-      <pre><code class="java">//Write a complete program that declares an array of any five
+      <section>
+        <h4>"Taking the Average" Java Code</h4>
+      <pre><code class="java">
+      //Write a complete program that declares an array of any five
       integers, from 0 to 100 , and
       //averages only those integers which are greater than 70 .
       //Programmer: C.L.
@@ -196,31 +199,107 @@
         <figcaption>
           Picture of output for source code "average"
         </figcaption>
-      </figure>
-      <figure>
-        <img src="../media/drawing-house-page-001.jpg" alt="Page 1 of Drawing House Code" />
-        <figcaption>
-          Page 1 of 3 for program source code "DrawingHouse"
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="../media/drawing-house-page-002.jpg" alt="Page 2 of Drawing House Code" />
-        <figcaption>
-          Page 2 of 3 for program source code "DrawingHouse"
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="../media/drawing-house-page-003.jpg" alt="Page 3 of Drawing House Code" />
-        <figcaption>
-          Page 3 of 3 for program source code "DrawingHouse"
-        </figcaption>
-      </figure>
+      </section>
+      <section>
+      <h4>"Drawing House" Java Code</h4>
+      <pre><code class="java">
+      import java.applet.*;
+      import java.awt.*;
+
+      public class DrawingHouse extends Applet
+      {
+                 public void init()
+                         {
+                                 setSize(350,240);
+                         }
+
+                 public void paint(Graphics g)
+                 {
+                         //A standard
+                         setBackground(Color.cyan);
+                         //Draw clouds
+                         g.setColor(Color.white);
+                         g.fillOval(30,30,40,40);
+                         g.fillOval(60,30,40,40);
+                         g.fillOval(80,30,40,40);
+                         g.fillOval(40,10,40,40);
+                         g.fillOval(70,10,40,40);
+
+                         g.fillOval(160,10,20,20);
+                         g.fillOval(175,10,20,20);
+                         g.fillOval(190,10,20,20);
+                         g.fillOval(170,20,20,20);
+                         g.fillOval(185,20,20,20);
+
+                         //Draw roof
+                         g.setColor(Color.red);
+                         int x[]={100,160,220};
+                         int y[]= {100,40,100};
+                         Polygon poly = new Polygon(x,y,3);
+                         g.fillPolygon(poly);
+
+                         //Draw body of house
+                         g.setColor(Color.blue);
+                         g.fillRect(100,100,120,120);
+
+                          //Draw sun
+                         g.setColor(Color.yellow);
+                         g.fillOval(240,30,50,50);
+
+                         //more clouds
+                         g.setColor(Color.white);
+                         g.fillOval(260,50,30,30);
+                         g.fillOval(280,50,30,30);
+                         g.fillOval(300,50,30,30);
+                         g.fillOval(270,40,30,30);
+                         g.fillOval(290,40,30,30);
+
+                         //Draw chimney
+                         g.setColor(Color.black);
+                         g.fillRect(120,55,10,30);
+
+                         //Door= black, Roof= magenta & 2 windows
+                         g.setColor(Color.black);
+                         g.fillRect(145,160,30,60);
+                         g.setColor(Color.red);
+                         g.fillPolygon(poly);
+
+                         //Draw window 1
+                         g.setColor(Color.white);
+                         g.fillRect(115,125,25,25);
+
+                         //Draw window 1 crossbar
+                         g.setColor(Color.black);
+                         g.drawLine(115,137,140,137);
+                         g.drawLine(127,125,127,150);
+
+                         //Draw window 2
+                         g.setColor(Color.white);
+                         g.fillRect(180,125,25,25);
+
+                         //Draw window 2 crossbar
+                         g.setColor(Color.black);
+                         g.drawLine(180,137,205,137);
+                         g.drawLine(192,125,192,150);
+
+                         //Draw grass
+                         g.setColor(Color.green);
+                         g.fillRect(0,200,350,40);
+
+                         //Draw tree
+                         g.setColor(Color.gray);
+                         g.fillRect(28,100,20,100);
+                         g.setColor(Color.green);
+                         g.fillOval(0,40,80,80);
+                 }
+      }</code></pre>
       <figure>
         <img src="../media/drawing-house-output.png" alt="Output of Drawing House Code" />
         <figcaption>
           Picture of output for source code "DrawingHouse"
         </figcaption>
       </figure>
+    </section>
     </article>
     <article>
       <h3>Web Design</h3>

@@ -2,3 +2,8 @@ img {
   display: block;
   max-width: 100%;
 }
+
+img, video {
+  display: block;
+  max-width: 100%;
+}

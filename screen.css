@@ -13,3 +13,15 @@ img, video {
   display: block;
   max-width: 100%;
 }
+
+p, li {
+  font-family: Jazz LET,fantasy;
+}
+
+html,h2,h3,h4,h5,footer {
+  font-family: Chalkduster,fantasy;
+  padding:10px 5px;
+}
+h2#res,h2#qual {
+    text-align: center;
+  }

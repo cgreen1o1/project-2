@@ -9,7 +9,25 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 
-img, video {
+video {
   display: block;
   max-width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  float: right;
+  margin: 0 12px;
+}
+
+html,h2,h3,h4,h5,footer {
+  padding:10px 5px;
+}
+h2#res,h2#qual {
+    text-align: center;
+}
+
+a {
+  text-decoration: none;
 }

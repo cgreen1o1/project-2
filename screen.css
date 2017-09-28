@@ -16,7 +16,42 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   3. basic element presenation
 */
 
+html {
+  font-size: 1.125em; /* 18 / 16 = 1.125 */
+  line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
+}
 
+body {
+  padding-top: 44px;
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
+}
+
+ol,ul {
+  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
+}
+ol {
+  list-style-type: circle;
+}
+ul {
+  list-style-type: square;
+}
+li ol,
+li ul {
+  padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
+  padding-left: 1.22em; /* 22 / 18 = 1.2222222222 */
+  padding-bottom: 0;
+}
+li {
+  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
+}
+li li:last-child {
+  padding-bottom: 0;
+}
 /* Responsive Media */
 img,
 video,

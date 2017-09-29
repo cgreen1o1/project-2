@@ -92,7 +92,8 @@ audio {
   2. concerned with layout and spatial
      relationships
 */
-#res, #qual {
+#res,
+#qual {
   text-align: center;
 }
 #list {

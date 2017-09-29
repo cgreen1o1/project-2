@@ -92,8 +92,12 @@ audio {
   2. concerned with layout and spatial
      relationships
 */
-
-
+#res, #qual {
+  text-align: center;
+}
+#list {
+  padding-left: 24.444em; /* 440 / 18 = 24.44444444 */
+}
 /* Modular Styles */
 /*
   Repeating style patterns.

@@ -27,7 +27,13 @@ body {
   padding-left: 1.22em; /* 22 / 18 = 1.2222222222 */
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
 /* ordered and unordered list */
@@ -39,10 +45,6 @@ ol {
 }
 ul {
   list-style-type: square;
-}
-
-li {
-  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
 }
 /* nested list */
 li ol,
@@ -62,7 +64,10 @@ li li ol {
 li li li ol {
   list-style-type: lower-alpha;
 }
-
+/* list item */
+li {
+  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
+}
 li li:last-child {
   padding-bottom: 0;
 }

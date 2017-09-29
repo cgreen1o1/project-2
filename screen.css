@@ -37,10 +37,10 @@ p {
   padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
 h1 {
-  font-size: 1.444em; /* 26 / 18 = 1.4444444444 */
+  font-size: 1.666em; /* 30 / 18 = 1.66666667 */
 }
 h2 {
-  font-size: 1.222em; /* 22 / 18 = 1.2222222222 */
+  font-size: 1.555em; /* 28 / 18 = 1.55555556 */
 }
 /* ordered and unordered list */
 ol, ul {

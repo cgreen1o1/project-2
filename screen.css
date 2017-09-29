@@ -43,7 +43,9 @@ h2 {
   font-size: 1.555em; /* 28 / 18 = 1.55555556 */
 }
 /* ordered and unordered list */
-ol, ul {
+ol,
+ul
+{
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
 }
 ol {

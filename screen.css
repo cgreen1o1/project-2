@@ -100,8 +100,9 @@ audio {
 #qual {
   text-align: center;
 }
-#list {
-  padding-left: 24.444em; /* 440 / 18 = 24.44444444 */
+#list,
+#common {
+  padding-left: 6.111em; /* 110 / 18 = 6.11111111 */
 }
 /* Modular Styles */
 /*

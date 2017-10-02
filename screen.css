@@ -96,6 +96,11 @@ audio {
   2. concerned with layout and spatial
      relationships
 */
+#navigation {
+  list-style-position: inside;
+  background-color: #000000;
+  color: #00FFFF;
+}
 #res,
 #qual {
   text-align: center;

@@ -133,7 +133,7 @@ audio {
 }
 #navigation a {
   background-color: #000000;
-  color: #C2F3FC;
+  color: #00FFFF;
   display: block;
   padding: 0.777em 0.888em; /* 14 / 18 = 0.77777778 and 16 / 18 = 0.88888889 */
 }

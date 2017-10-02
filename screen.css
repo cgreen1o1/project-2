@@ -140,6 +140,7 @@ audio {
 #navigation a:hover {
   background-color: #1145E0;
 }
+/* Center align headings */
 #res,
 #qual {
   text-align: center;

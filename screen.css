@@ -21,7 +21,7 @@ html {
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
   /* Border for navigation to sit on */
-  border-top: 2.6875em solid #000000; /* ~43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
+  border-top: 2.888em solid #000000; /* ~52px @ 18px/em | 52 = 16 + 14 + 22 from nav */
 }
 
 nav {

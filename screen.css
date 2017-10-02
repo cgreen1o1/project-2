@@ -126,6 +126,7 @@ audio {
 #common {
   padding-left: 6.111em; /* 110 / 18 = 6.11111111 */
 }
+/* When page active, styling added to link on page */
 #home #nav-me a,
 #resume #nav-res a,
 #background #nav-back a {

@@ -126,6 +126,12 @@ audio {
 #common {
   padding-left: 6.111em; /* 110 / 18 = 6.11111111 */
 }
+#home #nav-me a,
+#resume #nav-res a,
+#background #nav-back a {
+  color:#000000;
+  background-color: #42F4D1;
+}
 /* Modular Styles */
 /*
   Repeating style patterns.

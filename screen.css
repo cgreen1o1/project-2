@@ -96,10 +96,18 @@ audio {
   2. concerned with layout and spatial
      relationships
 */
-#navigation {
-  list-style-position: inside;
+#navigation li {
+    list-style-type: none;
+    float: left;
+}
+#navigation a {
   background-color: #000000;
   color: #00FFFF;
+  display: block;
+  padding: 0.777em 0.888em; /* 14 / 18 = 0.77777778 and 16 / 18 = 0.88888889 */
+}
+#navigation a:hover {
+  background-color: #4286F4;
 }
 #res,
 #qual {

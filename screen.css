@@ -142,7 +142,9 @@ audio {
 }
 /* Center align headings */
 #res,
-#qual {
+#qual,
+#code,
+.title {
   text-align: center;
 }
 #list,

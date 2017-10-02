@@ -121,6 +121,12 @@ audio {
 }
 
 /* Links */
+
+/* Style links outside of project on About Me and Background pages */
+#home a[href*="http"],
+#background a[href*="http"] {
+  color:#FFFFFF;
+}
 #navigation li {
     list-style-type: none;
     float: left;

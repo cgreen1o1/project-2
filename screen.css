@@ -128,7 +128,7 @@ code {
 /* Set backgound color for About Me and Background pages*/
 #home body,
 #background body {
-  background-color: #4286F4;
+  background: linear-gradient(to bottom right, blue, white);
 }
 
 /* Links */
@@ -149,7 +149,7 @@ code {
   padding: 0.777em 0.888em; /* 14 / 18 = 0.77777778 and 16 / 18 = 0.88888889 */
 }
 #navigation a:hover {
-  background-color: #1145E0;
+  background-color: #0000FF;
 }
 /* Center align headings */
 #res,
@@ -167,8 +167,9 @@ code {
 #resume #nav-res a,
 #background #nav-back a {
   color:#000000;
-  background-color: #4286F4;
+  background-color: #00FFFF;
 }
+
 /* Modular Styles */
 /*
   Repeating style patterns.

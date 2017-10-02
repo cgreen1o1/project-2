@@ -19,6 +19,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
+  /* Border for navigation to sit on */
+  border-top: 2.6875em solid #000000; /* ~43px @ 16px/em | 43 = 12 + 19 + 12 from nav */
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 body {

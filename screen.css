@@ -107,6 +107,12 @@ audio {
      relationships
 */
 
+/* Set backgound color for About Me and Background pages*/
+#home body,
+#background body {
+  background-color: #4286F4;
+}
+
 /* Links */
 #navigation li {
     list-style-type: none;

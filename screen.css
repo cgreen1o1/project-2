@@ -120,12 +120,12 @@ audio {
 }
 #navigation a {
   background-color: #000000;
-  color: #00FFFF;
+  color: #C2F3FC;
   display: block;
   padding: 0.777em 0.888em; /* 14 / 18 = 0.77777778 and 16 / 18 = 0.88888889 */
 }
 #navigation a:hover {
-  background-color: #4286F4;
+  background-color: #1145E0;
 }
 #res,
 #qual {
@@ -140,7 +140,7 @@ audio {
 #resume #nav-res a,
 #background #nav-back a {
   color:#000000;
-  background-color: #42F4D1;
+  background-color: #4286F4;
 }
 /* Modular Styles */
 /*

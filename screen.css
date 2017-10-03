@@ -26,7 +26,6 @@ html {
 
 nav {
   position: absolute;
-  width: 100%;
   top: 0;
   left: 0;
 }
@@ -101,17 +100,11 @@ img,
 video,
 audio {
   display: block;
-  width: 23.611em; /* 425 / 18 = 23.61111 */
-  height: 23.611em; /* 425 / 18 = 23.61111 */
-  padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
-  padding-left: 1.22em; /* 22 / 18 = 1.2222222222 */
-  float: right;
-  object-fit: contain;
+  max-width: 100%;
 }
 aside,
 figcaption {
   font-size: 0.777em; /* 14 / 18 = 0.77777778 */
-  float: right;
 }
 code {
   width: 23.611em; /* 425 / 18 = 23.61111 */

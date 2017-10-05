@@ -125,19 +125,10 @@ code {
 */
 #navigation {
   position: absolute;
+  width: 100%;
   top: 0;
   left: 0;
 }
-/* Modular Styles */
-/*
-  Repeating style patterns.
-  Hint: these tend to be:
-  1. classes and relationship selectors
-  2. concerned with adjustments to base styles,
-      spacing, color, etc. etc.
-*/
-
-
 /* Links */
 
 /* Style links outside of project on About Me and Background pages */

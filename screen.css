@@ -118,6 +118,14 @@ code {
      relationships
 */
 
+/* Modular Styles */
+/*
+  Repeating style patterns.
+  Hint: these tend to be:
+  1. classes and relationship selectors
+  2. concerned with adjustments to base styles,
+      spacing, color, etc. etc.
+*/
 /* Set backgound color for About Me and Background pages*/
 #home body,
 #background body {
@@ -162,16 +170,6 @@ code {
   color:#000000;
   background-color: #00FFFF;
 }
-
-/* Modular Styles */
-/*
-  Repeating style patterns.
-  Hint: these tend to be:
-  1. classes and relationship selectors
-  2. concerned with adjustments to base styles,
-      spacing, color, etc. etc.
-*/
-
 /* State Styles */
 /*
   States of the browser and user access

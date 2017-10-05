@@ -114,7 +114,7 @@ code {
 /* Set backgound color for About Me and Background pages*/
 #home body,
 #background body {
-  background: linear-gradient(to bottom right, blue, white);
+  background: linear-gradient(to top left, #00CCFF, #FFFFFF);
 }
 /* Layout Styles */
 /*

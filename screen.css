@@ -24,12 +24,6 @@ html {
   border-top: 2.888em solid #000000; /* ~52px @ 18px/em | 52 = 16 + 14 + 22 from nav */
 }
 
-nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 body {
   padding-top: 2.44em; /* 44 / 18 = 2.4444444444 */
   padding-right: 1.22em; /* 22 / 18 = 1.2222222222 */
@@ -117,7 +111,11 @@ code {
   2. concerned with layout and spatial
      relationships
 */
-
+#navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 /* Modular Styles */
 /*
   Repeating style patterns.

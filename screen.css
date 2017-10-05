@@ -146,15 +146,33 @@ code {
   color:#FFFFFF;
 }
 #navigation li {
-    list-style-type: none;
     float: left;
+    width: 33.3333333333%;
 }
 #navigation a {
+  display: block;
+  width: 100%;
+  padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
+  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
+  text-align: center;
+  text-decoration: none;
   background-color: #000000;
   color: #00FFFF;
-  display: block;
-  padding: 0.777em 0.888em; /* 14 / 18 = 0.77777778 and 16 / 18 = 0.88888889 */
 }
+/* Modular Styles */
+/*
+  Repeating style patterns.
+  Hint: these tend to be:
+  1. classes and relationship selectors
+  2. concerned with adjustments to base styles,
+      spacing, color, etc. etc.
+*/
+#navigation ul,
+#navigation li {
+  list-style-type: none;
+  padding-bottom: 0;
+}
+
 #navigation a:hover {
   background-color: #0000FF;
 }

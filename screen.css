@@ -71,10 +71,12 @@ ul
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
 }
 ol {
-  list-style-type: upper-roman;
+  list-style-type: none;
 }
 ul {
   list-style-type: square;
+  font-weight: normal;
+  text-decoration: none;
 }
 /* nested list */
 li ol,
@@ -84,15 +86,20 @@ li ul {
   padding-bottom: 0;
 }
 li ol {
-  list-style-type: upper-alpha;
+  list-style-type: none;
+  font-weight: bold;
 }
+
 /* nested list within nested list */
 li li ol {
-  list-style-type: decimal;
+  list-style-type: none;
+  font-style: normal;
+  font-weight: normal;
 }
 /* nested list within nested list within nested list */
 li li li ol {
-  list-style-type: lower-alpha;
+  list-style-type: none;
+  font-weight: normal;
 }
 /* list item */
 li {

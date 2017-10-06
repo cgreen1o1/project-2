@@ -126,11 +126,6 @@ code {
   width: 23.611em; /* 425 / 18 = 23.61111 */
 }
 
-/* Set backgound color for About Me and Background pages*/
-#home body,
-#background body {
-  background: linear-gradient(to top left, #00CCFF, #FFFFFF);
-}
 /* Layout Styles */
 /*
   Hint: these tend to be
@@ -146,10 +141,10 @@ code {
 }
 /* Links */
 
-/* Style links outside of project on About Me and Background pages */
-#home a[href*="http"],
-#background a[href*="http"] {
-  color:#FFFFFF;
+/* Style links outside of project pages */
+a[href*="http"] {
+  color:#0000FF;
+  text-decoration: none;
 }
 #navigation li {
     float: left;

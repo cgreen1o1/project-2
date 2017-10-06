@@ -118,7 +118,9 @@ audio {
 }
 aside,
 figcaption {
-  font-size: 0.777em; /* 14 / 18 = 0.77777778 */
+  font-size: 0.75em; /* 13.503px / 18 = 0.75em */
+  line-height: 1.037em; /* 14px / 13.503 = 1.0368em */
+  padding-top: 0.815em; /* 11 / 13.503 = 0.81463*/
 }
 code {
   width: 23.611em; /* 425 / 18 = 23.61111 */

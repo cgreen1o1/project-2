@@ -114,6 +114,7 @@ video,
 audio {
   display: block;
   max-width: 100%;
+  padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
 }
 aside,
 figcaption {

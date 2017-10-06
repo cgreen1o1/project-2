@@ -160,6 +160,10 @@ a[href*="http"] {
   background-color: #000000;
   color: #00CCFF;
 }
+.place:first-line {
+  text-decoration: underline;
+}
+
 /* Modular Styles */
 /*
   Repeating style patterns.

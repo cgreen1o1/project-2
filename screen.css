@@ -158,7 +158,7 @@ a[href*="http"] {
   text-align: center;
   text-decoration: none;
   background-color: #000000;
-  color: #00FFFF;
+  color: #00CCFF;
 }
 /* Modular Styles */
 /*
@@ -184,16 +184,13 @@ a[href*="http"] {
 .title {
   text-align: center;
 }
-#list,
-#common {
-  padding-left: 6.111em; /* 110 / 18 = 6.11111111 */
-}
+
 /* When page active, styling added to link on page */
 #home #nav-me a,
 #resume #nav-res a,
 #background #nav-back a {
   color:#000000;
-  background-color: #00FFFF;
+  background-color: #00CCFF;
 }
 /* State Styles */
 /*

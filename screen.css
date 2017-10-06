@@ -53,6 +53,10 @@ h2 {
   line-height: 1.032em; /* 33 / 31.984 = 1.032 */
   padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
 }
+#background h3 {
+  font-weight: bold;
+  text-decoration: underline;
+}
 h2,
 h3,
 h4,

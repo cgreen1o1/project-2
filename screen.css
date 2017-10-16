@@ -54,13 +54,6 @@ h2 {
   padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-decoration: underline;
-}
 /* ordered and unordered list */
 ol, ul {
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
@@ -130,7 +123,6 @@ code {
 */
 #background h3 {
   font-weight: bold;
-  text-decoration: underline;
 }
 #navigation {
   position: absolute;
@@ -158,9 +150,6 @@ a[href*="http"] {
   text-decoration: none;
   background-color: #000000;
   color: #00CCFF;
-}
-.place:first-line {
-  text-decoration: underline;
 }
 
 /* Modular Styles */

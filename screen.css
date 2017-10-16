@@ -208,28 +208,56 @@ a[href*="http"] {
 
 @media screen and (min-width: 860px) {
   /*
+  For About Me page:
     700 pixel grid w/ 80px margins (160)
-    Columns: 200px;
-    Gutters: 50px;
-    Primary module: 450px;
-    Secondary module: 200px;
+    Columns: 300px;
+    Gutters: 100px;
   */
-  body {
+  #home img,
+  #home video {
+    width: 75%;
+  }
+  #home body {
     padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581 */
     padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581 */
   }
-  #content {
-    width: 64.28571429%; /* 450 / 700 = 0.6428571429 */
-    float: left;
-  }
-  #supporting {
-    width: 28.57142857%; /* 200 / 700 = 0.2857142857 */
-    margin-left: 7.142857143%; /* 50 / 700 = 0.07142857143 */
+  #home #content {
+    width: 42.857143%; /* 300 / 700 = 0.42857143 */
     float: left;
   }
   #home #supporting {
-    width: 28.57142857%; /* 200 / 700 = 0.2857142857 */
-    margin-left: 7.142857143%; /* 50 / 700 = 0.07142857143 */
+    width: 42.857143%; /* 300 / 700 = 0.42857143 */
+    margin-left: 14.285714%; /* 100 / 700 = 0.14285714 */
+    float: right;
+}
+
+  /*
+  For Background page:
+    720 pixel grid w/ 70px margins (140)
+    Columns: 200px;
+    Gutters: 10px;
+    First module: 300px;
+    Second and third module: 200px;
+  */
+  #background body {
+    padding-right: 8.139535%; /* 70 / 860 = 0.08139535 */
+    padding-left: 8.139535%; /* 70 / 860 = 0.08139535 */
+  }
+  code {
+    width: auto;
+  }
+  #background #content {
+    width: 41.66666668%; /* 300 / 720 = 0.4166666667 */
+    float: left;
+  }
+  #background #supporting {
+    width: 27.77777778%; /* 200 / 720 = 0.277777778 */
+    margin-left: 1.388889%; /* 10 / 720 = 0.01388889 */
+    float: left;
+  }
+  #background #supporting2 {
+    width: 27.77777778%; /* 200 / 720 = 0.277777778 */
+    margin-left: 1.388889%; /* 10 / 720 = 0.01388889 */
     float: right;
   }
 

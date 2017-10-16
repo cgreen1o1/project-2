@@ -111,7 +111,7 @@ figcaption {
   padding-top: 0.815em; /* 11 / 13.503 = 0.81463*/
 }
 code {
-  width: 23.611em; /* 425 / 18 = 23.61111 */
+  width: 100%;
 }
 
 /* Layout Styles */

@@ -93,7 +93,12 @@ li li li ol {
 li {
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
 }
-li li:last-child {
+li li:last-child,
+aside,
+img,
+video,
+figure,
+figcaption {
   padding-bottom: 0;
 }
 /* Responsive Media */
@@ -225,7 +230,7 @@ a[href*="http"] {
     width: 42.857143%; /* 300 / 700 = 0.42857143 */
     float: left;
   }
-  #home #supporting {
+  #home #content2 {
     width: 42.857143%; /* 300 / 700 = 0.42857143 */
     margin-left: 14.285714%; /* 100 / 700 = 0.14285714 */
     float: right;

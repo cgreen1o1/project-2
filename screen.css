@@ -31,7 +31,7 @@ body {
   padding-top: 3.667em; /* 66 / 18 = 3.667... */
   padding-right: 1.222em; /* 22 / 18 = 1.2222222222 */
   padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
-  background: linear-gradient(to top left, #00CCFF, #FFFFFF);
+  background-color: #E9E9E9;
 }
 
 h1,
@@ -139,7 +139,7 @@ code {
 
 /* Style links outside of project pages */
 a[href*="http"] {
-  color: #0000FF;
+  color: #52658F;
   text-decoration: none;
 }
 #navigation li {
@@ -153,8 +153,8 @@ a[href*="http"] {
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
   text-align: center;
   text-decoration: none;
-  background-color: #000000;
-  color: #00CCFF;
+  background-color: #88BBD6;
+  color: #CDCDCD;
 }
 
 /* Modular Styles */
@@ -189,14 +189,14 @@ a[href*="http"] {
   3. Organized by Base, Layout, Module, State
 */
 #navigation a:hover {
-  background-color: #0000FF;
+  background-color: #FFFFFF;
 }
 /* When page active, styling added to link on page */
 #home #nav-me a,
 #resume #nav-res a,
 #background #nav-back a {
   color: #000000;
-  background-color: #00CCFF;
+  background-color: #99D3DF;
 }
 @media screen and (min-width: 375px) {
   body {

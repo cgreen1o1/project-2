@@ -53,6 +53,9 @@ h2 {
   line-height: 1.032em; /* 33 / 31.984 = 1.032 */
   padding-bottom: 0.688em; /* 22 / 31.984 = 0.688 */
 }
+#crystal {
+  padding-top: 1.222em; /* 22 / 18 = 1.2222222222 */
+}
 
 /* ordered and unordered list */
 ol, ul {

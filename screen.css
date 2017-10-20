@@ -116,7 +116,7 @@ figcaption {
   padding-top: 0.815em; /* 11 / 13.503 = 0.81463*/
 }
 code {
-  width: 100%;
+  width: auto;
 }
 
 /* Layout Styles */
@@ -253,9 +253,7 @@ a[href*="http"] {
     padding-right: 5.8139534883721%; /* 50 / 860 = 0.058139534883721 */
     padding-left: 5.8139534883721%; /* 50 / 860 = 0.058139534883721 */
   }
-  code {
-    width: auto;
-  }
+
   #background #content {
     width: 39.4736842105263%; /* 300 / 760 = 0.394736842105263 */
     float: left;

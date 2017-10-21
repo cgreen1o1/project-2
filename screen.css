@@ -245,7 +245,16 @@ a[href*="http"] {
     margin-left: 14.285714%; /* 100 / 700 = 0.14285714 */
     float: right;
   }
-
+  /*
+  For Resume page: */
+  #resume html {
+    font-size: 1.5em; /* 24 / 16 = 1.5em */
+  }
+  #resume body {
+  padding-right: 11.6279069767442%; /* 100 / 860 = 0.116279069767442 */
+  padding-left: 23.2558139534884%; /* 200 / 860 = 0.116279069767442 */
+  width: 50%;/* 280 /560 = 0.5 */
+  }
   /*
   For Background page:
     760 pixel grid w/ 50px margins (100)

@@ -112,8 +112,7 @@ audio {
   padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
 }
 aside,
-figcaption,
-footer {
+figcaption {
   font-size: 0.75em; /* 13.503px / 18 = 0.75em */
   line-height: 1.037em; /* 14px / 13.503 = 1.0368em */
   padding-top: 0.815em; /* 11 / 13.503 = 0.81463*/
@@ -166,10 +165,7 @@ a[href*="http"] {
 #merch {
   padding-top: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
-#footer {
-  border-top: 0.222em solid #99D3DF;  /* 4 / 18 = .22222 */
-  padding-top: 0.815em; /* 11 / 13.503 = 0.81463*/
-}
+
 /* Modular Styles */
 /*
   Repeating style patterns.
@@ -288,9 +284,5 @@ a[href*="http"] {
     width: 28.9473684210526%; /* 220 / 760 = 0.289473684210526 */
     margin-left: 1.3157894736842%; /* 10 / 760 = 0.013157894736842 */
     float: right;
-  }
-
-  #footer {
-    clear: both;
   }
 }

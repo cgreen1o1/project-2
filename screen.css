@@ -165,7 +165,9 @@ a[href*="http"] {
 #merch {
   padding-top: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
-
+#shirts {
+  padding-bottom: 0;
+}
 /* Modular Styles */
 /*
   Repeating style patterns.

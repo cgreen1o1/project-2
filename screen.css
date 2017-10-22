@@ -25,6 +25,8 @@ html {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
+  /* Border for footer */
+  border-bottom: 2.222222222222222em solid #88BBD6; /* 40/18 = 2.222222222222222 \ 40 = 11 + 18 + 11  */
 }
 
 body {

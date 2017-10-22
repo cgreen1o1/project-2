@@ -162,7 +162,8 @@ a[href*="http"] {
 #crystal {
   padding-top: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
-#otherhead {
+#otherhead,
+#merch {
   padding-top: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
 #footer {

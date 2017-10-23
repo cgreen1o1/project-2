@@ -91,6 +91,9 @@ li li li ol {
   list-style-type: none;
   font-weight: normal;
 }
+li li li li ul {
+  list-style-type: circle;
+}
 /* list item */
 li {
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */

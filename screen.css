@@ -252,6 +252,13 @@ a[href*="http"] {
   #home #others {
     clear: left;
   }
+  .flexbox #home #content,
+  .flexbox #home #content2,
+  .flexbox #home #others {
+    float: none;
+    width: 100%;
+  }
+
 
   /*
   For Resume page: */
@@ -262,6 +269,12 @@ a[href*="http"] {
     padding-right: 11.6279069767442%; /* 100 / 860 = 0.116279069767442 */
     padding-left: 23.2558139534884%; /* 200 / 860 = 0.116279069767442 */
     width: 50%;/* 280 /560 = 0.5 */
+  }
+  .flexbox #resume body{
+    padding-top: 1.222em;/* 22/18 = 1.222222222222222 */
+    padding-right: 0;
+    padding-left: 0;
+    display: flex;
   }
   /*
   For Background page:
@@ -289,5 +302,14 @@ a[href*="http"] {
     width: 28.9473684210526%; /* 220 / 760 = 0.289473684210526 */
     margin-left: 1.3157894736842%; /* 10 / 760 = 0.013157894736842 */
     float: right;
+  }
+  .flexbox #background #content,
+  .flexbox #background #supporting,
+  .flexbox #background #supporting2 {
+    float: none;
+    margin-left: 0;
+  }
+  .flexbox #background main {
+    display: flex;
   }
 }

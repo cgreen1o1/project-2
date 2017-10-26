@@ -236,24 +236,24 @@ a[href*="http"] {
   #home video {
     width: 75%;
   }
-  #home body {
+  #home-body {
     padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581 */
     padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581 */
   }
-  #home #content {
+  #home-content {
     width: 42.857143%; /* 300 / 700 = 0.42857143 */
     float: left;
   }
-  #home #content2 {
+  #home-cont {
     width: 42.857143%; /* 300 / 700 = 0.42857143 */
     margin-left: 14.285714%; /* 100 / 700 = 0.14285714 */
     float: right;
   }
-  #home #others {
+  #home-others {
     clear: left;
   }
-  .flexbox #home #content,
-  .flexbox #home #content2 {
+  .flexbox #home-content,
+  .flexbox #home-cont {
     float: none;
   }
 

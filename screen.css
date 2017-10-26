@@ -312,7 +312,6 @@ a[href*="http"] {
   }
   .flexbox #back-content {
     order: 2;
-    align-items: center;
   }
   .flexbox #back-supporting {
     order: 1;

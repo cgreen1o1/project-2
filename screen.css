@@ -275,28 +275,28 @@ a[href*="http"] {
     First module: 300px;
     Second and third module: 200px;
   */
-  #background body {
+  #back-body {
     padding-right: 5.8139534883721%; /* 50 / 860 = 0.058139534883721 */
     padding-left: 5.8139534883721%; /* 50 / 860 = 0.058139534883721 */
   }
 
-  #background #content {
+  #back-content {
     width: 39.4736842105263%; /* 300 / 760 = 0.394736842105263 */
     float: left;
   }
-  #background #supporting {
+  #back-supporting {
     width: 28.9473684210526%; /* 220 / 760 = 0.289473684210526 */
     margin-left: 1.3157894736842%; /* 10 / 760 = 0.013157894736842 */
     float: left;
   }
-  #background #supporting2 {
+  #back-support {
     width: 28.9473684210526%; /* 220 / 760 = 0.289473684210526 */
     margin-left: 1.3157894736842%; /* 10 / 760 = 0.013157894736842 */
     float: right;
   }
-  .flexbox #background #content,
-  .flexbox #background #supporting,
-  .flexbox #background #supporting2 {
+  .flexbox #back-content,
+  .flexbox #back-supporting,
+  .flexbox #back-support {
     float: none;
   }
 

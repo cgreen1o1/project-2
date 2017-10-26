@@ -252,6 +252,10 @@ a[href*="http"] {
   #home #others {
     clear: left;
   }
+  .flexbox #home #content,
+  .flexbox #home #content2 {
+    float: none;
+  }
 
   /*
   For Resume page: */
@@ -290,4 +294,10 @@ a[href*="http"] {
     margin-left: 1.3157894736842%; /* 10 / 760 = 0.013157894736842 */
     float: right;
   }
+  .flexbox #background #content,
+  .flexbox #background #supporting,
+  .flexbox #background #supporting2 {
+    float: none;
+  }
+
 }

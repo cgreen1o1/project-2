@@ -258,11 +258,7 @@ a[href*="http"] {
   #home-others {
     clear: left;
   }
-  .flexbox #home-content,
-  .flexbox #home-cont {
-    float: none;
-  }
-
+  
   /*
   For Resume page: */
   #resume-html {

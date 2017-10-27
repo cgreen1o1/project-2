@@ -248,6 +248,14 @@ a[href*="http"] {
   #home video {
     width: 75%;
   }
+  #bio-movie,
+  #pi-shirt,
+  #home-shirt {
+    width: 100%;
+  }
+  #home-aside {
+    text-align: center;
+  }
   #home-body {
     padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581 */
     padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581 */

@@ -224,7 +224,13 @@ a[href*="http"] {
     padding-left: 11.73333333%; /* 44 / 375 = 11.73333333% */
   }
 }
-
+@media screen and (min-width: 500px) {
+  #bhawks,
+  #pi-shirt,
+  #home-shirt {
+    width: 75%;
+  }
+}
 @media screen and (min-width: 640px) {
   html {
     font-size: 1.25em; /* 20 / 16 = 1.25em */

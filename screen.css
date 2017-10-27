@@ -161,12 +161,7 @@ a[href*="http"] {
   background-color: #000000;
   color: #00CCFF;
 }
-.flexbox #navigation ol {
-  display: flex;
-}
-.flexbox #navigation li {
-  float: none;
-}
+
 #crystal {
   padding-top: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
@@ -190,7 +185,12 @@ a[href*="http"] {
   list-style-type: none;
   padding-bottom: 0;
 }
-
+.flexbox #navigation ol {
+  display: flex;
+}
+.flexbox #navigation li {
+  float: none;
+}
 /* Center align headings */
 #res,
 #qual,

@@ -297,16 +297,15 @@ a[href*="http"] {
   .flexbox #bhawks {
     width: 60%;
   }
-  
   /*
   For Resume page: */
-  #resume-html {
-    font-size: 1.5em; /* 24 / 16 = 1.5em */
-  }
   #resume-body {
     padding-right: 11.6279069767442%; /* 100 / 860 = 0.116279069767442 */
     padding-left: 23.2558139534884%; /* 200 / 860 = 0.116279069767442 */
     width: 50%;/* 280 /560 = 0.5 */
+  }
+  #resume-html main {
+    font-size: 1.111em; /* 20 / 18 = 1.111111111111111em */
   }
   /*
   For Background page:

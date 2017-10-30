@@ -302,7 +302,6 @@ a[href*="http"] {
     margin-left: 11.4285714285714%; /* 80 / 700 = 0.114285714285714 */
   }
   .flexbox #home-pics {
-    align-items: center;
     margin-left: 11.4285714285714%; /* 80 / 700 = 0.114285714285714 */
   }
   .flexbox #home-others {

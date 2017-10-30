@@ -213,7 +213,7 @@ a[href*="http"] {
 }
 /* When page active, styling added to link on page */
 #home #nav-me a,
-#resume #nav-res a,
+#resume-html #nav-res a,
 #background #nav-back a {
   color: #000000;
   background-color: #00CCFF;

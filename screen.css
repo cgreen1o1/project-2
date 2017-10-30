@@ -225,7 +225,6 @@ a[href*="http"] {
   }
 }
 @media screen and (min-width: 500px) {
-  #bhawks,
   #pi-shirt,
   #home-shirt {
     width: 75%;
@@ -308,7 +307,7 @@ a[href*="http"] {
     width: 71.4285714285714%; /* 500 / 700 = 0.714285714285714*/
   }
   .flexbox #bhawks {
-    width: 60%;
+    width:66.5%;
   }
   /*
   For Resume page: */

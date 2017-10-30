@@ -322,10 +322,10 @@ a[href*="http"] {
   /*
   For Background page:
     760 pixel grid w/ 50px margins (100)
-    Columns: 200px;
+    Columns: 300px & 220px & 220px;
     Gutters: 10px;
     First module: 300px;
-    Second and third module: 200px;
+    Second and third module: 230px (220 + 10);
   */
   #back-body {
     padding-right: 5.8139534883721%; /* 50 / 860 = 0.058139534883721 */

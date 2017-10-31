@@ -171,6 +171,9 @@ a[href*="http"] {
 #shirts {
   padding-bottom: 0;
 }
+#otherhead {
+  padding-top: 0.611em; /* 11 / 18 = 0.611111111111111 */
+}
 /* Modular Styles */
 /*
   Repeating style patterns.

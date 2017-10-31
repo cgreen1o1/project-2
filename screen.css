@@ -165,9 +165,8 @@ a[href*="http"] {
 #crystal {
   padding-top: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
-#otherhead,
-#merch {
-  padding-top: 1.222em; /* 22 / 18 = 1.2222222222 */
+#dog {
+  padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
 #shirts {
   padding-bottom: 0;

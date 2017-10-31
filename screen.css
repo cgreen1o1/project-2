@@ -294,7 +294,7 @@ a[href*="http"] {
   .flexbox #home-supporting,
   .flexbox #home-pics {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .flexbox #home-text {
     display: flex;
@@ -303,7 +303,7 @@ a[href*="http"] {
     width: 71.4285714285714%; /* 500 / 700 = 0.714285714285714*/
   }
   .flexbox #home-pics {
-    margin-left: 11.4285714285714%; /* 80 / 700 = 0.114285714285714 */
+    margin-left: 7.1428571428571%; /* 50 / 700 = 0.114285714285714 */
   }
   .flexbox #home-others {
     width: 71.4285714285714%; /* 500 / 700 = 0.714285714285714*/

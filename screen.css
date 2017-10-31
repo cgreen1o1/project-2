@@ -254,7 +254,8 @@ a[href*="http"] {
   #home-aside {
     text-align: center;
   }
-  #home-body {
+  #home-body,
+  #resume-body {
     padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581 */
     padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581 */
   }
@@ -311,9 +312,7 @@ a[href*="http"] {
   /*
   For Resume page: */
   #resume-body {
-    padding-right: 11.6279069767442%; /* 100 / 860 = 0.116279069767442 */
-    padding-left: 23.2558139534884%; /* 200 / 860 = 0.116279069767442 */
-    width: 50%;/* 280 /560 = 0.5 */
+    width: 60%;/* 336 /560 = 0.56 */
   }
   #resume-html main {
     font-size: 1.111em; /* 20 / 18 = 1.111111111111111em */
@@ -328,7 +327,7 @@ a[href*="http"] {
   */
   #back-body {
     padding-right: 5.8139534883721%; /* 50 / 860 = 0.058139534883721 */
-    padding-left: 5.8139534883721%; /* 50 / 860 = 0.058139534883721 */
+    padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581 */
   }
 
   #back-content {

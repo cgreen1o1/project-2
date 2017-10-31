@@ -305,6 +305,9 @@ a[href*="http"] {
   .flexbox #home-others {
     width: 71.4285714285714%; /* 500 / 700 = 0.714285714285714*/
   }
+  .flexbox #parade {
+    padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
+  }
   .flexbox #bhawks {
     width:66.5%;
   }
